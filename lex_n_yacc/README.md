@@ -57,15 +57,15 @@ int main(void) {
 
 ### 1. Compile
 ```bash
-flex lexer.l          # Generates lex.yy.c
-gcc lex.yy.c -o lexer -ll    # Compile with Lex library
+flex expr.l          # Generates lex.yy.c
+gcc lex.yy.c -o expr -ll    # Compile with Lex library
 ```
 
 > Note: On some systems, you may need `-lfl` instead of `-ll`.
 
 ### 2. Run
 ```bash
-./lexer
+./expr
 ```
 
 ### 3. Example
